@@ -11,7 +11,7 @@
     <!--Header part start-->
     <header>
         <div class="logo">
-            <img src="Railway logo.jpg">
+            <img src="BR.jpg">
         </div>
         
         <div class="heading">
@@ -52,7 +52,7 @@
         </div>
     </header>
     <hr style="color:aquamarine;">
-    <br><br><br>
+    <br>
     <!--Header part end-->
 
     <!--Form Start-->
