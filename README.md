@@ -11,7 +11,7 @@
     <!--Header part start-->
     <header>
         <div class="logo">
-            <img src="BR.jpg">
+            <img src="Railway logo.jpg">
         </div>
         
         <div class="heading">
@@ -65,6 +65,12 @@
             <br><br>
             <input type="reset" value="Reset" class="btn">
             <input type="submit" value="Login" class="btn">
+
+
+
+
+
+
 
 
         </form>
