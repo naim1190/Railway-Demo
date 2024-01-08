@@ -90,15 +90,19 @@ header{
 
 /*Form STart*/
 .form1{
+    background-image: url(https://img.freepik.com/premium-photo/there-is-yellow-sunflower-with-butterfly-flying-around-it-generative-ai_958098-18246.jpg);
     background-color: crimson;
-    color: white;
+    background-repeat: no-repeat;
+    color:black;
     text-align: center;
     font-size: 40px;
+    font-weight: bold;
     margin: 0 auto;
     width: fit-content;
     height: fit-content;
     padding: 30px 80px;
     border-radius: 5%;
+    text-shadow: 1px 3px white;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
 }
 .form1 input{
@@ -115,13 +119,13 @@ header{
 /*Footer STart*/
 footer{
     left: 0;
-    position: fixed;
-    bottom: 0;
+    position:absolute;
+    bottom:0 ;
     text-align: center;
     background-color:rgb(59, 56, 56);
     width:100%;
     color:white;
-    flex-wrap: wrap;
+
 }
 .foot h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -143,6 +147,7 @@ footer{
     position: relative;
     top:-20;
     flex-wrap: wrap;
+    padding:10px ;
     
 }
 
