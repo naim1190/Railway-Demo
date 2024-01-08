@@ -67,12 +67,6 @@
             <input type="submit" value="Login" class="btn">
 
 
-
-
-
-
-
-
         </form>
 
     </div>
