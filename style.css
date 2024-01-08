@@ -1,9 +1,9 @@
 body{
     padding:0;
-    margin:0;
+    margin:0 auto;
     box-sizing: border-box;
     background-color: white;
-    flex-wrap: wrap;
+    
     
 }
 
@@ -12,6 +12,7 @@ header{
     width:100%;
     background-color:white;
     color:green;
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
@@ -22,7 +23,7 @@ header{
     border-radius: 10px;
     margin:0 auto;
     padding:2px;
-    flex-wrap: wrap;
+    
     
     
 }
@@ -33,7 +34,7 @@ header{
     margin-left: 20px;
     margin-top: 10px ;
     padding:10px;
-    flex-wrap: wrap;
+    
 
 }
 
@@ -41,12 +42,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    
 
 }
 .navbar ul{
     list-style: none;
-    flex-wrap: wrap;
+    
 
 }
 .navbar ul li{
@@ -62,19 +63,19 @@ header{
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
-    flex-wrap: wrap;
+    
 
 }
 .navbar ul li a{
     text-decoration: none;
     color: black;
     text-align: center;
-    flex-wrap: wrap;
+    
 }
 .navbar ul li:hover{
     background-color:cyan;
     transition: all ease-in 0.5s;
-    flex-wrap: wrap;
+    
 
 }
 .navbar ul ul {
@@ -83,7 +84,7 @@ header{
 }
 .navbar ul li:hover > ul {
     display: block;
-    flex-wrap: wrap;
+
 }
 
 /*Header End*/
@@ -95,6 +96,8 @@ header{
     background-repeat: no-repeat;
     color:black;
     text-align: center;
+    position:fixed;
+    left:50px;
     font-size: 40px;
     font-weight: bold;
     margin: 0 auto;
@@ -131,7 +134,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 50px;
-    flex-wrap: wrap;
+    
 
 }
 .text p{
@@ -140,7 +143,7 @@ footer{
     margin:0 auto;
     position: relative;
     top: -30;
-    flex-wrap: wrap;
+    
 }
 .icon i{
     font-size: 45px;
